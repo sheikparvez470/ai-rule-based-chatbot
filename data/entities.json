@@ -1,0 +1,20 @@
+{
+  "entities": {
+    "PERSON": {
+      "patterns": ["john", "jane", "bob", "alice", "david", "sarah"],
+      "examples": ["My name is John", "I'm talking to Jane"]
+    },
+    "LOCATION": {
+      "patterns": ["new york", "london", "paris", "tokyo", "sydney", "usa", "uk", "france"],
+      "examples": ["I live in New York", "The capital of France is Paris"]
+    },
+    "TIME": {
+      "patterns": ["today", "tomorrow", "yesterday", "monday", "tuesday", "morning", "afternoon"],
+      "examples": ["See you tomorrow", "Meet me on Monday"]
+    },
+    "NUMBER": {
+      "patterns": ["one", "two", "three", "42", "100", "1000"],
+      "examples": ["I need 5 items", "There are 3 days left"]
+    }
+  }
+}

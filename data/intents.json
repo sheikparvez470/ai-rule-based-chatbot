@@ -1,0 +1,167 @@
+{
+  "intents": [
+    {
+      "id": "greeting",
+      "name": "Greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "greetings",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "what's up",
+        "howdy",
+        "yo"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! 👋 What can I do for you?",
+        "Hey! Welcome! How can I assist?",
+        "Greetings! What brings you here?",
+        "Hello! I'm here to help. What do you need?"
+      ],
+      "context": {},
+      "confidence_threshold": 0.7
+    },
+    {
+      "id": "goodbye",
+      "name": "Goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "farewell",
+        "quit",
+        "exit",
+        "see you later",
+        "bye bye",
+        "catch you later",
+        "take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day! 👋",
+        "See you later! Thanks for chatting.",
+        "Farewell! Come back soon!",
+        "Bye! It was nice talking to you.",
+        "Take care! See you next time!"
+      ],
+      "context": {},
+      "confidence_threshold": 0.7
+    },
+    {
+      "id": "help",
+      "name": "Help Request",
+      "patterns": [
+        "help",
+        "help me",
+        "assist",
+        "support",
+        "can you help",
+        "i need help",
+        "what can you do",
+        "features",
+        "capabilities"
+      ],
+      "responses": [
+        "I can help with: greetings, FAQs, weather info, time queries, and general questions. What would you like to know?",
+        "Here are my capabilities: Answer FAQs, provide information, and have friendly conversations. How can I assist?",
+        "I'm here to help! I can answer questions about various topics. What do you need?"
+      ],
+      "context": {},
+      "confidence_threshold": 0.65
+    },
+    {
+      "id": "faq",
+      "name": "FAQ",
+      "patterns": [
+        "what is",
+        "who is",
+        "where is",
+        "when is",
+        "how do",
+        "how can",
+        "explain",
+        "tell me about",
+        "information about",
+        "question"
+      ],
+      "responses": [
+        "I'd be happy to help! Could you be more specific about what you'd like to know?",
+        "That's a great question! Can you provide more details?",
+        "I can help with that. Tell me more about what you're looking for."
+      ],
+      "context": {},
+      "confidence_threshold": 0.6
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "patterns": [
+        "weather",
+        "forecast",
+        "rain",
+        "sunny",
+        "cloudy",
+        "temperature",
+        "climate",
+        "snow",
+        "storm",
+        "weather today"
+      ],
+      "responses": [
+        "I don't have real-time weather data, but you can check weather.com or your local weather app for accurate information.",
+        "For weather updates, I recommend checking your favorite weather service or app.",
+        "Weather forecasts are best checked on dedicated weather platforms for real-time accuracy."
+      ],
+      "context": {},
+      "confidence_threshold": 0.65
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "patterns": [
+        "what time",
+        "what's the time",
+        "current time",
+        "tell me the time",
+        "time please",
+        "what day",
+        "today",
+        "date"
+      ],
+      "responses": [
+        "The current time is {time}. Is there anything else you'd like to know?",
+        "It's {time} right now.",
+        "According to my clock, it's {time}."
+      ],
+      "context": {},
+      "confidence_threshold": 0.7
+    },
+    {
+      "id": "general",
+      "name": "General Conversation",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "great",
+        "nice",
+        "good",
+        "okay",
+        "yes",
+        "no",
+        "maybe",
+        "okay"
+      ],
+      "responses": [
+        "You're welcome! Anything else I can help with?",
+        "Happy to help! Do you have more questions?",
+        "Is there anything else you'd like to know?",
+        "Feel free to ask me anything!"
+      ],
+      "context": {},
+      "confidence_threshold": 0.5
+    }
+  ]
+}
